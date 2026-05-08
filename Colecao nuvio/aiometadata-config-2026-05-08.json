@@ -1,0 +1,878 @@
+{
+  "version": "2.2.2",
+  "exportedAt": "2026-05-08T19:51:47.420Z",
+  "config": {
+    "language": "pt-BR",
+    "addonName": "",
+    "includeAdult": false,
+    "blurThumbs": false,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": false,
+    "showDisabledCatalogs": false,
+    "sfw": false,
+    "hideUnreleasedDigital": false,
+    "hideUnreleasedDigitalSearch": false,
+    "hideWatchedTrakt": false,
+    "hideWatchedAnilist": false,
+    "hideWatchedMdblist": false,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "mal",
+      "anime_id_provider": "imdb",
+      "forceAnimeForDetectedImdb": false
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "meta",
+        "background": "imdb",
+        "logo": "imdb"
+      },
+      "englishArtOnly": false,
+      "originalLangFallback": false
+    },
+    "tvdbSeasonType": "default",
+    "mal": {
+      "skipFiller": false,
+      "skipRecap": false,
+      "allowEpisodeMarking": false,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "tmdb": {
+      "scrapeImdb": true,
+      "forceLatinCastNames": true
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "",
+      "tvdb": "",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "",
+      "openrouter": "",
+      "traktTokenId": "",
+      "simklTokenId": "",
+      "anilistTokenId": "",
+      "customDescriptionBlurb": ""
+    },
+    "posterRatingProvider": "rpdb",
+    "usePosterProxy": true,
+    "mdblistWatchTracking": true,
+    "anilistWatchTracking": true,
+    "simklWatchTracking": true,
+    "traktWatchTracking": true,
+    "publicmetadbWatchTracking": false,
+    "enableRatingPostersForLibrary": true,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "America/Sao_Paulo",
+    "catalogs": [
+      {
+        "id": "tmdb.top",
+        "name": "Popular",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Filmes"
+      },
+      {
+        "id": "tmdb.top",
+        "name": "Popular",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Series"
+      },
+      {
+        "id": "tmdb.trending",
+        "name": "Tendência",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Filmes"
+      },
+      {
+        "id": "tmdb.trending",
+        "name": "Tendência",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Series"
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "TMDB Top Rated",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "TMDB Top Rated",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "tmdb.airing_today",
+        "name": "TMDB Airing Today",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "tmdb.year",
+        "name": "Por Ano",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "filme"
+      },
+      {
+        "id": "tmdb.year",
+        "name": "Por ano",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "series"
+      },
+      {
+        "id": "tmdb.language",
+        "name": "TMDB By Language",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "tmdb.language",
+        "name": "TMDB By Language",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "Tendência",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Filmes"
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "Tendência",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Series"
+      },
+      {
+        "id": "tvdb.genres",
+        "name": "Gêneros",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Filmes"
+      },
+      {
+        "id": "tvdb.genres",
+        "name": "Gêneros",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "displayType": "Series"
+      },
+      {
+        "id": "tvdb.collections",
+        "name": "TVDB Collections",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": true,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "tvmaze.schedule",
+        "name": "TVmaze Daily Schedule",
+        "type": "series",
+        "source": "tvmaze",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.airing",
+        "name": "MAL Airing Now",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.upcoming",
+        "name": "MAL Upcoming Season",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.schedule",
+        "name": "MAL Airing Schedule",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.seasons",
+        "name": "MAL Seasons",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.80sDecade",
+        "name": "MAL Best of 80s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.90sDecade",
+        "name": "MAL Best of 90s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.00sDecade",
+        "name": "MAL Best of 2000s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.10sDecade",
+        "name": "MAL Best of 2010s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.20sDecade",
+        "name": "MAL Best of 2020s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.genres",
+        "name": "MAL Genres",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.studios",
+        "name": "MAL By Studio",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.top_movies",
+        "name": "MAL Top Movies",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.top_series",
+        "name": "MAL Top Series",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.most_favorites",
+        "name": "MAL Most Favorites",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.most_popular",
+        "name": "MAL Most Popular",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "mal.top_anime",
+        "name": "MAL Top Anime",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "enableRatingPosters": true,
+        "randomizePerPage": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Filmes"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "popularity",
+        "sortDirection": "desc",
+        "displayType": "Series"
+      },
+      {
+        "id": "flixpatrol.netflix.br.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Netflix (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.netflix.br.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Netflix (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.disney.br.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Disney+ (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.disney.br.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Disney+ (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.hbo-max.br.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on HBO Max (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.hbo-max.br.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on HBO Max (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.amazon-prime.br.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Prime Video (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.amazon-prime.br.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Prime Video (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.apple-tv.br.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Apple TV+ (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.apple-tv.br.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Apple TV+ (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.paramount.br.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Paramount+ (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.paramount.br.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Paramount+ (Brazil)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "brazil"
+        }
+      },
+      {
+        "id": "flixpatrol.hulu.us.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Hulu (United States)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "united-states"
+        }
+      },
+      {
+        "id": "flixpatrol.hulu.us.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Hulu (United States)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "united-states"
+        }
+      },
+      {
+        "id": "flixpatrol.peacock.us.movie",
+        "type": "movie",
+        "name": "Top 10 Movies on Peacock (United States)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "united-states"
+        }
+      },
+      {
+        "id": "flixpatrol.peacock.us.series",
+        "type": "series",
+        "name": "Top 10 TV Shows on Peacock (United States)",
+        "enabled": false,
+        "showInHome": false,
+        "source": "flixpatrol",
+        "enableRatingPosters": true,
+        "metadata": {
+          "countrySlug": "united-states"
+        }
+      }
+    ],
+    "search": {
+      "enabled": true,
+      "ai_enabled": false,
+      "ai_provider": "gemini",
+      "ai_model": "gemini-2.5-flash-lite",
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "mal.search.movie",
+        "anime_series": "mal.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "tvdb.collections.search": false,
+        "tvmaze.search": true,
+        "trakt.search": true,
+        "mdblist.search": true,
+        "people_search_movie": false,
+        "people_search_series": false,
+        "mal.search.movie": true,
+        "mal.search.series": true
+      },
+      "searchNames": {},
+      "searchOrder": [
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "people_search_movie",
+        "people_search_series"
+      ]
+    },
+    "streaming": [
+      "nfx",
+      "hbm",
+      "dnp",
+      "amp",
+      "hlu",
+      "pcp",
+      "pmp",
+      "atp",
+      "cru"
+    ],
+    "customPosterUrlPattern": "",
+    "customBackgroundUrlPattern": "",
+    "customLogoUrlPattern": "",
+    "lastModified": 1778243331500,
+    "configVersion": 1778243331501,
+    "configHash": "f1266350c11e5e7e"
+  },
+  "metadata": {
+    "apiKeysExcluded": true,
+    "totalCatalogs": 67,
+    "enabledCatalogs": 9
+  }
+}
