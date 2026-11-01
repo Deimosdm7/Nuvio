@@ -36,7 +36,6 @@ https://dbrb49pjoymg4.cloudfront.net/10001/99951223/hls/master.m3u8?includeAsset
 http://186.219.52.187/jp_news/index.m3u8
 #EXTINF:-1 group-title="News Channel",Canal 26
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
-
 #EXTINF:-1 group-title="News Channel",Antena 3 CNN
 https://live3vox.antenaplay.ro/a3free/a3free.m3u8
 
